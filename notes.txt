@@ -1,0 +1,9 @@
+'''scripts = soup.select('script')
+scripts = [script for script in scripts]
+
+
+
+
+for script in scripts:
+    if 'ssrModel:' in script.text:
+        print(script)'''
